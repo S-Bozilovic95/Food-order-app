@@ -16,3 +16,9 @@
   font-size: 2rem;
   margin-top: 0;
 }
+
+@media (max-width: 768px) {
+  .summary {
+    margin-top: -17rem;
+  }
+}
