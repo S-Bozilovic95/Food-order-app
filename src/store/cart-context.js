@@ -70,6 +70,8 @@ export const CartContextProvider = ({ children }) => {
     totalAmount: 0,
   });
 
+  // console.log(cartState.items);
+
   const addItemToCartHandler = (item) => {
     dispatchCartAction({
       type: "ADD",

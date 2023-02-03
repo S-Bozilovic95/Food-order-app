@@ -37,7 +37,7 @@ const Cart = (props) => {
     <PopUp onClose={props.onShowCart}>
       {cartItems}
       <div className={classes.total}>
-        <span>Total Amount</span>
+        <span>Total Price</span>
         <span>{`$${cartCtx.totalAmount.toFixed(2)}`}</span>
       </div>
       <div className={classes.actions}>
