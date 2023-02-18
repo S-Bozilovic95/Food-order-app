@@ -81,12 +81,12 @@ const Cart = (props) => {
   const isSubmittingContent = <p>Sending order...</p>;
 
   const didSubmitContent = (
-    <React.Fragment>
+    <div className={classes.actions}>
       <p>Successfully sent the order!</p>
       <button className={classes.button} onClick={props.onShowCart}>
         Close
       </button>
-    </React.Fragment>
+    </div>
   );
 
   return (
